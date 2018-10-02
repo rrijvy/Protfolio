@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-size: 10px;
+    color: #343434;
+}
+
 .flex-container{
     display: flex;
     flex-flow: row wrap;
@@ -14,11 +19,93 @@
 .block{
     width: 25%;
     height: 33.33vh;
-    border: 1px solid;
-    background-color: #dadada;
     text-align: center;
+    padding: 3rem 1.5rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.block-9{
+.block a{
+    text-decoration: none;
+    color: #343434;
+}
+
+.block-icons{
+    height: 5rem;
+}
+
+.block-1{
+    background-color: #dadada;
+}
+
+.block-2{
+    background-color: #bfabaa;
+}
+
+.block-3{
+    background-color: #dadada;
+}
+
+.block-4{
+    background-color: #bfabaa;
+}
+
+.block-4 div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-4 div img{
+    height: 3rem;
+}
+
+.block-5{
     background-color: #a5142d;
+    color: white;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.block-6{
+    background-color: #413231;
+}
+.block-6 a{
+    color: white;
+}
+
+.block-7{
+    background-color: #2f3640;
+    color: white;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 1.8rem;
+
+}
+
+.block-8{
+    background: url(images/background.jpg);
+}
+
+
+.block-9{
+    background-color: #dadada;
+}
+
+.block-10{
+    background: url(images/background.jpg);
+}
+
+.block-11{
+    background-color: #a5142d;
+}
+.block-11 a{
+    color: white;
+}
+
+.block-12{
+    background-color: #dadada;
 }
